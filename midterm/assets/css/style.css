@@ -1,0 +1,309 @@
+body {
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    background: blanchedalmond;
+}
+
+.nav{
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background: #F18805;
+    color:blanchedalmond;
+    top: 0;
+}
+
+.logo {
+    background: #F0A202;
+    margin:0px 30px 50px 30px;
+    aspect-ratio: 1/1;
+    height:400%;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.title {
+    margin: 170px 20px 0px 20px;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Kranky';
+    font-size: 300%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nav_item {
+    text-align: center;
+    color:blanchedalmond;
+    padding:50px; 
+    width: 100px;
+    flex-shrink:2;
+    
+}
+.nav_item a {
+    font-family: 'Lacquer';
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color:blanchedalmond;
+    transition: 0.3s;
+}
+
+.nav_item a:hover {
+    text-decoration: underline;
+    font-size:40px;
+    transition: 0.3s;
+    cursor:pointer;
+}
+
+
+.splash {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bubble {
+    height: 100px;
+    width: 400px;
+    border-radius: 30px;
+    background: #F0A202;
+}
+
+.text {
+    padding-top: 15px;
+    font-family: 'Lacquer';
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.text2 {
+    font-family: 'New Tegomin';
+    font-size: 30px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.bubble2 {
+    margin:0 auto;
+    height: 100px;
+    width: 300px;
+}
+
+.text3 {
+    font-family: 'New Tegomin';
+    font-size: 30px;
+    text-align: center;
+    color: #D95D39;
+}
+
+.slides {
+    padding-top: 100px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background: #F18805;
+    z-index:-1;
+}
+
+.pic {
+    padding: 10px;
+    overflow: hidden;
+    position:relative;
+    z-index:0;
+}
+
+.pic img {
+    height: 650px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.pic img:hover {
+    opacity: 20%;
+    transition: 1s;
+}
+
+.caption {
+    font-family: 'Lacquer';
+    font-size: 30px;
+    text-align: center;
+    color: blanchedalmond;
+    position:absolute;
+    top: 45%;
+    left: 35%;
+    width: 35%;
+    z-index:-1;
+}
+
+.button {
+    height: 300px;
+    width: 600px;
+    margin: 50px auto;
+    border:#F18805;
+    border-style:solid;
+    border-width:10px;
+    text-align: center;
+    border-radius: 200px;
+    background: #D95D39;
+    transition: 0.6s;
+}
+
+.button a {
+    position:relative;
+    top:45%;
+    font-family: 'Lacquer';
+    font-size: 50px;
+    text-decoration: none;
+    color: blanchedalmond;
+    line-height: 20px;
+    transition: 0.6s;
+}
+
+.button:hover {
+    background: blanchedalmond;
+    color:#D95D39;
+    border-width:20px;
+    transition: 0.6s;
+}
+.button a:hover {
+    text-decoration: underline;
+    font-size:70px;
+    transition: 0.6s;
+    color:#D95D39;
+    cursor:pointer;
+}
+
+.text4 {
+    position:relative;
+    top:65%;
+    font-family: 'Lacquer';
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+.footer {
+    margin-top: 100px;
+    background:#F18805;
+    width:100%;
+    height:100px;
+    text-align:center;
+}
+
+.text5 {
+    font-family: 'New Tegomin';
+    color:blanchedalmond;
+    font-size: auto;
+    position:relative;
+    top: 35%;
+}
+
+.text5 a {
+    color:blanchedalmond;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.text5 a:hover {
+    color:blanchedalmond;
+    text-decoration: underline;
+    transition: 0.6s;
+}
+
+.menu_box{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width:100%;
+    background: #D95D39;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+    height: 1100px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 600px;
+}
+
+.menu_item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 100%;
+    overflow:visible;
+}
+
+.heading {
+    font-family: 'Kranky';
+    font-size: 40px;
+    color: blanchedalmond;
+    margin: 20px auto;
+}
+
+.item {
+    font-family: 'Lacquer';
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+.break {
+    width: 50%;
+}
+
+.price {
+    font-family: 'New Tegomin';
+    font-size: 18px;
+    color: blanchedalmond;
+}
+
+.description {
+    font-family: 'New Tegomin';
+    color: blanchedalmond;
+    overflow:visible;
+}
+
+.map {
+    margin: 100px auto;
+    padding: 50px;
+    height: 800px;
+    background:#D95D39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.meme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
