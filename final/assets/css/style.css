@@ -1,0 +1,238 @@
+html{
+    background-color:#011638 ;
+}
+
+
+.hidden{
+    opacity: 0;
+    transition: 0.7s;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#spaces{
+    z-index: 1;
+    font-family: "Special Elite";
+    font-size: 50px;
+    width: 100%;
+    height: 60%;
+    position: fixed;
+    top:15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#spaces a{
+    color: #b7cece;
+    text-align: center;
+    text-decoration: none;
+}
+
+.title {
+    padding-top: 50px;
+    transition: 0.5s;
+}
+
+.title:hover {
+    transition: 0.5s;
+    font-size: 120%;
+    text-decoration: underline;
+    color: #bbbac6;
+}
+
+.logo {
+    z-index: 3;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    top:10px;
+    left:10px;
+}
+
+@media (min-width:700px){
+    .logo { 
+        width: 150px;
+        height: 150px;
+        top:20px;
+        left:20px;
+        margin-bottom: 10px;
+    }
+}
+
+.logo img {
+    height:auto;
+    width:100%;
+}
+
+#background{
+    z-index: -1;
+    height:100%;
+    opacity: 40%;
+    transition: 0.7s;
+}
+
+#cloudbg {
+    position: fixed;
+    height:100%;
+    width:auto;
+    overflow: hidden;
+    top:0px;
+    left:0px;
+    transition: 0.7s;
+}
+
+#cloudbg img{
+    width: auto;
+    height:100%;
+    transition: 0.7s;
+}
+
+@media (min-width: 700px) {
+    #cloudbg {
+        width:100%;
+    }
+    
+    #cloudbg img{
+        width: 100%;
+
+    }
+}
+
+#lightsbg {
+    position: fixed;
+    height:100%;
+    width:auto;
+    overflow: hidden;
+    top:0px;
+    left:0px;
+    transition: 0.7s;
+}
+
+#lightsbg img{
+    width: auto;
+    height:100%;
+    transition: 0.7s;
+}
+
+
+@media (min-width: 700px) {
+    #lightsbg img{
+        width: 100%;
+        height:auto;
+    }
+}
+
+#wavesbg {
+    position: fixed;
+    height:100%;
+    width:auto;
+    overflow:hidden;
+    top:0px;
+    left:-450px;
+    transition: 0.7s;
+}
+
+#wavesbg img{
+    width: auto;
+    height:100%;
+    transition: 0.7s;
+}
+
+@media (min-width: 700px) {
+    #wavesbg {
+        position: fixed;
+        height:100%;
+        width:auto;
+        overflow:hidden;
+        top:0px;
+        left:0px;
+    }
+
+    #wavesbg img{
+        width: 100%;
+        height:auto;
+    }
+}
+
+.heading, #cloudH{
+    margin-top: 40px;
+    margin-bottom:40px;
+    font-family: "Special Elite";
+    color:#011638;
+    font-size: 20px;
+}
+
+@media (min-width:700px){
+    .heading, #cloudH{ 
+        font-size: 50px;
+    }
+}
+
+.backcolor, #cloudback {
+    position: fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:-3;
+    background-color: azure;
+}
+
+.heading, #lightsH{
+    margin-top: 40px;
+    margin-bottom:40px;
+    font-family: "Special Elite";
+    color:#bbbac6;
+    font-size: 20px;
+}
+
+
+@media (min-width:700px){
+    .heading, #lightsH{ 
+        font-size: 50px;
+    }
+}
+
+.backcolor, #lightsback {
+    position: fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:-3;
+    background-color: #14152F;
+}
+
+.heading, #wavesH{
+    margin-top: 40px;
+    margin-bottom:40px;
+    font-family: "Special Elite";
+    color:#107e77;
+    font-size: 20px;
+}
+
+
+@media (min-width:700px){
+    .heading, #wavesH{ 
+        font-size: 50px;
+    }
+}
+
+.backcolor, #wavesback {
+    position: fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:-3;
+    background-color: #030f1c;
+}

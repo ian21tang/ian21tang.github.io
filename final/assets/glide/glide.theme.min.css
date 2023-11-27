@@ -1,0 +1,26 @@
+.glide__arrow{
+    position:absolute;
+    display:block;
+    top:50%;
+    z-index:2;
+    color:#fff;
+    text-transform:uppercase;
+    border-color: transparent;
+    padding:9px 12px;
+    background-color:#fff;
+    opacity:50%;
+    border-radius: 50%;
+    transition:opacity 150ms ease,border 300ms ease-in-out;
+    transform:translateY(-50%);
+}
+.glide__arrow img{
+    width: 20px;
+    height: 20px;
+}
+.glide__arrow:focus{outline:none}
+/* .glide__arrow:hover{border-color:#fff} */
+.glide__arrow--left{left:2em}
+.glide__arrow--right{right:2em}
+.glide__arrow--disabled{opacity:.33}
+.glide--swipeable{cursor:grab;cursor:-moz-grab;cursor:-webkit-grab}
+.glide--dragging{cursor:grabbing;cursor:-moz-grabbing;cursor:-webkit-grabbing}/*# sourceMappingURL=glide.theme.min.css.map */
