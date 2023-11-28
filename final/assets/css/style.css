@@ -124,13 +124,6 @@ body {
 }
 
 
-@media (min-width: 700px) {
-    #lightsbg img{
-        width: 100%;
-        height:auto;
-    }
-}
-
 #wavesbg {
     position: fixed;
     height:100%;
